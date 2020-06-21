@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">COVID-19</string>
-    <string name="newTaskHeadingText">Global Informations</string>
-    <string name="saveTaskActionText">Close Dialog</string>
-    <string name="no_data">No data! :(</string>
-    <string name="selectDatePicker">Select FROM date: (today\'s date will be automatically picked)</string>
-</resources>
