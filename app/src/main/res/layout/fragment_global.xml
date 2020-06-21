@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/marginLarge"
+        android:paddingEnd="@dimen/marginLarge"
+        android:orientation="vertical">
+    <TextView
+            android:id="@+id/heading"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            style="@style/HeadingTextView"
+            android:layout_marginBottom="@dimen/marginLarge"
+            android:text="@string/newTaskHeadingText"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginLarge"
+            android:text="New confirmed:"
+            android:textStyle="bold"
+            tools:ignore="Autofill"/>
+    <TextView
+            android:id="@+id/newConfirmedField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginLarge"
+            tools:ignore="Autofill"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginLarge"
+            android:textStyle="bold"
+            android:text="Total confirmed:"
+            tools:ignore="Autofill"/>
+
+    <TextView
+            android:id="@+id/totalConfirmedField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginLarge"
+            tools:ignore="Autofill"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginLarge"
+            android:text="New deaths:"
+            android:textStyle="bold"
+            tools:ignore="Autofill"/>
+    <TextView
+            android:id="@+id/newDeathsField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginLarge"
+            tools:ignore="Autofill"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginLarge"
+            android:text="New recovered:"
+            android:textStyle="bold"
+            tools:ignore="Autofill"/>
+
+    <TextView
+            android:id="@+id/newRecoveredField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginLarge"
+            tools:ignore="Autofill"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/marginLarge"
+            android:text="Total recovered:"
+            tools:ignore="Autofill"/>
+
+    <TextView
+            android:id="@+id/totalRecoveredField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginLarge"
+            tools:ignore="Autofill"/>
+
+    <Button
+            android:id="@+id/closeDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginLarge"
+            android:layout_marginBottom="@dimen/marginLarge"
+            android:layout_gravity="center"
+            android:text="@string/saveTaskActionText"/>
+
+</LinearLayout>
