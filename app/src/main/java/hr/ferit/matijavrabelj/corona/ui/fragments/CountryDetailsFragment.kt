@@ -1,6 +1,7 @@
 package hr.ferit.matijavrabelj.corona.ui.fragments
 
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import hr.ferit.matijavrabelj.corona.R
@@ -20,7 +21,7 @@ class CountryDetailsFragment : BaseFragment() {
 
     private var selectedSLUG: String = NO_SLUG
     private val adapter by lazy { CountryDetailsAdapter() }
-    private val interactor = BackendFactory.getBeersInteractor()
+    private val interactor = BackendFactory.getCoronasInteractor()
 
 
     override fun getLayoutResourceId(): Int {
@@ -61,13 +62,18 @@ class CountryDetailsFragment : BaseFragment() {
     }
 
     private fun show(countries: MutableList<CountryDetails>) {
-        newFieldInput.text =
-            (countries.asReversed()[0].active.toInt() - countries.asReversed()[1].active.toInt()).toString()
+        val result = (countries.asReversed()[0].confirmed.toInt() - countries.asReversed()[1].confirmed.toInt())
+        if (result > 0) {
+            newFieldInput.text = result.toString()
+        } else {
+            newFieldInput.text = "0"
+        }
+
         countryNameFieldText.text = countries[0].country
         adapter.setData(countries.asReversed())
     }
 
-    private fun handleSomethingWentWrong() = this.activity?.displayToast("Something went wrong2!")
+    private fun handleSomethingWentWrong() = this.activity?.displayToast("Something went wrong!")
 
     companion object {
         const val NO_SLUG = "-1"

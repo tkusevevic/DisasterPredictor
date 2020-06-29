@@ -23,7 +23,7 @@ class CoronaFragment : BaseFragment() {
 
     private var global = Global()
     private val adapter by lazy { CountryAdapter { onItemSelected(it) } }
-    private val interactor = BackendFactory.getBeersInteractor()
+    private val interactor = BackendFactory.getCoronasInteractor()
 
     companion object {
         fun newInstance(): Fragment {
@@ -45,7 +45,7 @@ class CoronaFragment : BaseFragment() {
         noData.visible()
         tasksRecyclerView.layoutManager = LinearLayoutManager(context)
         tasksRecyclerView.adapter = adapter
-        getAllBeers()
+        getAllCountries()
     }
 
     private fun initListeners() {
@@ -71,9 +71,6 @@ class CoronaFragment : BaseFragment() {
             putExtra(EXTRA_SELECTED_SLUG, country.slug)
         }
         startActivity(detailsIntent)
-        //val dialog = DatePickerDialog.newInstance(country.slug)
-        //dialog.show(childFragmentManager, dialog.tag)
-
     }
 
     private fun openGlobal() {
@@ -87,7 +84,7 @@ class CoronaFragment : BaseFragment() {
         dialog.show(childFragmentManager, dialog.tag)
     }
 
-    private fun getAllBeers() {
+    private fun getAllCountries() {
         progress.visible()
         interactor.getSummary(getSummaryCallback())
     }

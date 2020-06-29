@@ -32,5 +32,5 @@ object BackendFactory {
 
     private fun getService(): CoronaApiService = this.client!!.create(CoronaApiService::class.java)
 
-    fun getBeersInteractor(): CoronaInteractor = CoronaInteractorImpl(getService())
+    fun getCoronasInteractor(): CoronaInteractor = CoronaInteractorImpl(getService())
 }
