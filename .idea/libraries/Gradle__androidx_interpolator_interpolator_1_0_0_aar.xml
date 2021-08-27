@@ -2,7 +2,9 @@
   <library name="Gradle: androidx.interpolator:interpolator:1.0.0@aar">
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f764bf909462161f700168a39c882c43/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f764bf909462161f700168a39c882c43/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/537064d93d60566b7b25edb793196cde/transformed/interpolator-1.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/537064d93d60566b7b25edb793196cde/transformed/interpolator-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/537064d93d60566b7b25edb793196cde/transformed/interpolator-1.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

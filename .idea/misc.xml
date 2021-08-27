@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Kotlin2JsCompilerArguments">
-    <option name="sourceMapEmbedSources" />
-    <option name="sourceMapPrefix" />
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/border.xml" value="0.24351851851851852" />
+        <entry key="app/src/main/res/drawable/play.xml" value="0.17552083333333332" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.14488348530901723" />
+        <entry key="app/src/main/res/layout/fragment_corona.xml" value="0.13647269027602518" />
+        <entry key="app/src/main/res/layout/fragment_country_details.xml" value="0.22418478260869565" />
+        <entry key="app/src/main/res/layout/fragment_disaster.xml" value="0.159375" />
+        <entry key="app/src/main/res/layout/fragment_global.xml" value="0.22418478260869565" />
+        <entry key="app/src/main/res/layout/item_country.xml" value="0.14270833333333333" />
+      </map>
+    </option>
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -32,7 +42,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

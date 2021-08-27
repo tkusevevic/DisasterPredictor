@@ -2,7 +2,9 @@
   <library name="Gradle: androidx.viewpager:viewpager:1.0.0@aar">
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6793c98285bcc2c9d3a651b40fe02721/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6793c98285bcc2c9d3a651b40fe02721/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/798958921606a74ab8be9e3c13172753/transformed/viewpager-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/798958921606a74ab8be9e3c13172753/transformed/viewpager-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/798958921606a74ab8be9e3c13172753/transformed/viewpager-1.0.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
