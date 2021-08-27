@@ -1,2 +1,2 @@
-# COVID
-Covid App
+# DisaterPredictor
+Disaster Predictor App Machine Learning Azure
